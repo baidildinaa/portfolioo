@@ -1,0 +1,195 @@
+body,
+#about {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(https://2.bp.blogspot.com/-RLB-j_B9dPI/VWUYM1q9XuI/AAAAAAAAAUs/B1v5LuJ4R8Y/s1600/Beautiful%2BLandscapes%2Bin%2BSwitzerland%2BWallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about {
+  padding-bottom: 100px;
+}
+
+.about_myself {
+  padding-top: 20px;
+  padding-bottom: 90px;
+  background-color: rosybrown;
+}
+
+.image_mine {
+  float: left;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.image_my {
+  border: 2px solid plum;
+  padding: 30px
+}
+.myself {
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 100px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: thistle;
+  color: #dc3545;
+}
+
+h1 {
+  color: black;
+}
+
+hr {
+  background-color: #dc3545;
+  max-width: 70px;
+  border-width: 4px;
+}
+
+.buffer {
+  height: 12rem;
+}
+
+#projects {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fde5cd;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 30px;
+}
+
+.projects {
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+.projects_section {
+  max-width: 500px;
+  margin: 0 auto;
+  border-bottom: 0.1rem solid;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.project_image_1 {
+  height: 300px;
+  width: 195px;
+  object-fit: cover;
+  box-shadow: 3px 3px 5px 6px rgb(224, 195, 65);
+  transition: 1s;
+}
+
+.project_image_1:hover {
+  transform: scale(1.1);
+}
+
+.project_image_2 {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  box-shadow: 3px 3px 5px 6px rgb(12, 19, 41);
+  transition: 1s;
+}
+
+.project_image_2:hover {
+  transform: scale(0.9);
+}
+
+.project_image_3 {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  box-shadow: 3px 3px 5px 6px rebeccapurple;
+  transition: 1s;
+}
+
+.project_image_3:hover {
+  transform: scale(1.2);
+}
+
+.project_title {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  color: black;
+  position: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  padding: 50px 100px;
+}
+
+.contact p {
+  font-size: 50px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px whitesmoke;
+  transition: transform 0.3s ease-out;
+}
+
+.details:hover {
+  transform: translateY(20px);
+}
+
+a {
+  margin: 10px;
+}
